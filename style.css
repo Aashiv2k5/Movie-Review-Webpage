@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  font-family:"The Series";
+}
+#moviecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.moviebox{
+    padding:10px;
+    width: 200px;
+    background-color: white;
+    border-radius: 2px;
+    
+   
+}
+.header{
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color:#9c181f;
+  background: transparent;
+
+  
+}
+.closebtn{
+  padding:5px;
+  resize: vertical;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 60px;
+}
+
+    
+
+  #popup input[type="text"] {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #000000;
+  color: #9c181f;
+  border: 1px solid #9c181f;
+}
+
+  #popup label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    padding:10px;
+    color:  #9c181f;
+    font-size:x-large;
+
+    
+  }
+   #popup {
+    display:none;
+    position: fixed;
+    justify-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+   background: transparent;
+    border: 2px solid #9c181f;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    width: 300px;
+    padding-left: 10px;
+    position: fixed;
+   transition: all 0.3s ease;
+   visibility: hidden;
+   opacity: 0;
+   font-size: medium;
+    
+  
+  }
+
+  
+   #reviewContainer {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+      
+    }
+
+   .reviewBox {
+    display: block;
+      background:transparent;
+      color:#9c181f;
+      border: 2px;
+      border-color: #9c181f;
+      border-style:groove;
+      padding: 15px 15px;
+      border-radius: 10px;
+      width: 50%;
+      max-width: 200px;
+      text-align:justify;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      overflow-wrap: break-word;
+      word-break: break-word;
+      overflow: hidden;
+       transition-duration: 0.5s;
+    }
+    .reviewBox:hover{
+      border-top: 2px solid #E50914;
+  border-left: 2px solid #B00710;
+  border-bottom: 2px  #000000;
+  border-right: 2px solid #B00710;
+  box-shadow: rgba(176, 7 ,16, 0.4) 5px 5px, rgba(229 ,9 ,20, 0.3) 10px 10px,
+    rgba(0,0,0, 0.2) 15px 15px;
+    }
+ .btn {
+  padding: 1rem 2rem;
+  font-weight:bold;
+  background: transparent;
+  color: #9c181f;
+  cursor: pointer;
+  border: 2px solid #9c181f;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid #9c181f;
+  border-right: 2px solid #9c181f;
+  border-top: 2px #000000;
+  border-left: 2px #000000;
+  transition-duration: 0.5s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+    margin-left: 20px;
+    font-family:"The Series";
+  gap:15px;
+}
+
+.btn:hover {
+  border-top: 2px solid #E50914;
+  border-left: 2px solid #B00710;
+  border-bottom: 2px  #000000;
+  border-right: 2px solid #B00710;
+  box-shadow: rgba(176, 7 ,16, 0.4) 5px 5px, rgba(229 ,9 ,20, 0.3) 10px 10px,
+    rgba(0,0,0, 0.2) 15px 15px;
+}
+.butn:hover{
+  color:#E50914;
+  transition: ease-in all 0.2s;
+}
+.butt1{
+  margin-left: 50px;
+  color: #9c181f;
+  margin-left: 10px;
+  background: transparent;
+  padding:3px 10px;
+border-radius: 2px;}
+.butt1:hover{
+  color: #310507;
+}
+
+@font-face{font-family: "The Series";
+src: url(The\ Series.otf)
+
+}
+#popup input[type="text"],
+#popup textarea{
+  border:none;
+  border-radius:20px;
+  width:auto;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  border-color: black;
+  border-style:solid;
+  padding:10px 2px;
+  text-align: center;
+  margin-left: 25px;
+  background-color: #000000;
+  color: #9c181f;
+  
+}
